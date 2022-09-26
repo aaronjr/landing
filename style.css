@@ -68,7 +68,7 @@ body{
     padding-right: 75px;
     color:#E5E7EB;
 }
-.hero-left > button{
+button{
     background-color: #3882F6;
     border: 1px solid #3882F6;
     border-radius: .5rem;
@@ -121,12 +121,55 @@ body{
     margin-top: 8px;
     text-align: center;
 }
+/* third section */
 .quote-section{
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    padding: 100px 300px;
 }
+.quote{
+    font-style: italic;
+    color:#1F2937;
+    font-size: 36px;
+}
+.cite{
+    align-self: flex-end;
+    padding-right:50px;
+}
+/* forth section */
 .calltoaction-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 200px
+}
+.ctabox{
+    background-color: #3882F6;
+    height: 150px;
+    width: 100%;
+    border-radius: .5rem ;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.ctaleft > h4{  
+    font-size: 24px;
+    color: white;
+}
+.ctaleft > p{  
+    font-size: 16px;
+    color: white;
+}
+
+.ctaright > button{
+    border:2px solid white;
 
 }
+/* fifth section */
 .footer-section{
     
 }
